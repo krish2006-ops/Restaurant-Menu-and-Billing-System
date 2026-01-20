@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Welcome to Tasty Food Restaurant</h2>
+<h3>Veg Menu</h3>
+<div class="item">
+Paneer Butter Masala - ₹200
+<button onclick="addToCart(200)">Order</button>
+</div>
+<div class="item">
+Veg Biryani - ₹180
+<button onclick="addToCart(180)">Order</button>
+</div>
+<h3>Non‑Veg Menu</h3>
+<div class="item">
+Chicken Curry - ₹250
+<button onclick="addToCart(250)">Order</button>
+</div>
+<div class="item">
+Mutton Biryani - ₹300
+<button onclick="addToCart(300)">Order</button>
+</div>
+<h3>Total: ₹<span id="total">0</span></h3>
+<a href="bill.html">Go to Bill Page</a>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Bill</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Your Total Bill</h2>
+<h3>Amount to Pay: ₹<span id="bill"></span></h3>
+<a href="index.html">Back to Menu</a>
+<script>
+document.getElementById("bill").innerText =
+localStorage.getItem("billTotal") || 0;
+</script>
+</body>
+</html>
